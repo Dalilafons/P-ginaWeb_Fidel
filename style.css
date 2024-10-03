@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/12/17/14/texture-8569033_1280.jpg");
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgba(176, 86, 13, 0.545);
+    padding: 20px;
+}
+
+/* Centramos todos los títulos */
+h1, h2, h3 {
+    text-align: center;
+} 
+
+.album {
+    border: 5px solid rgb(68, 36, 20);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.exitos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.video-container {
+    text-align: center;
+}
